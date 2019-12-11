@@ -1,0 +1,74 @@
+body {
+  background: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_960_720.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+h1 {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: aliceblue;
+  font-size: 35px;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 800;
+  position: relative;
+  top: 10px;
+}
+
+.card {
+  background: none;
+  box-shadow: 12px 12px 23px 7px;
+  height: 300px;
+}
+
+#search::after {
+  background: white;
+}
+
+#search::placeholder::before {
+  color: white;
+}
+
+.icon img {
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: -18px;
+  width: 100px;
+}
+
+.temp {
+  font-size: 68px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  top: 10px;
+}
+
+.des {
+  color: white;
+  font-size: 21px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  left: -5px;
+  text-align: right;
+  top: 83px;
+}
+.main {
+  color: white;
+  font-size: 21px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  top: 50px;
+}
+
+.reportTxt p {
+  font-family: cursive;
+  letter-spacing: 2px;
+}
